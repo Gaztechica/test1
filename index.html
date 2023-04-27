@@ -1,0 +1,65 @@
+<!DOCTYPE html><html lang="en" style="font-size: 98px;"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="MyLogo.ico"><title>Horion Global Website</title><script async src="https://www.googletagmanager.com/gtm.js?id=GTM-K5FGVPL"></script><script>(function (document, window) {
+        // 页面自适应脚本
+        var htmlNode = document.documentElement,
+            event = "orientationchange" in window ? "orientationchange" : "resize", //orientationchange 移动端横屏竖屏切换 事件
+            setRem = window.setRem = function () {
+              var width = htmlNode.clientWidth;
+              if (width) {
+                var fontsize = Math.floor(100 * (width / 1920));              
+                htmlNode.style.fontSize = fontsize + "px";
+              }
+              
+            };
+            document.addEventListener && (window.addEventListener(event, setRem, false), document.addEventListener("DOMContentLoaded", setRem, false));
+      })(document, window);
+
+      function judegeDevice(){
+        // @to-do: 判断设备是否为PC端，是则维持在本站，否则跳转移动端 location.href='xxx'
+      }</script><style>@charset "UTF-8";
+        @font-face {
+            font-family: "MiSans-Normal";          
+            src: url("fonts/MiSans-Normal.ttf") format("truetype");
+        }
+        body {
+            font-family: MiSans-Normal;
+            color: #404040;
+        }
+        @media (max-width: 1023px){
+          body{font-size: 12px}
+        } /*<=1023的设备屏幕*/
+        @media (min-width: 1024px){
+          body{font-size: 12px}
+        } /*>=1024的设备屏幕*/
+        @media (min-width: 1100px) {
+          body{font-size: 14px}
+        } /*>=1100的设备屏幕*/
+        @media (min-width: 1280px) {
+          body{font-size: 18px;}
+        } /*>=1280的设备屏幕*/
+        @media (min-width: 1366px) {
+          body{font-size: 20px;}
+        } /*>=1366的设备屏幕*/
+        @media (min-width: 1440px) {
+          body{font-size: 24px; }
+        } /*>=1440的设备屏幕*/
+        @media (min-width: 1680px) {
+          body{font-size: 26px;}
+        } /*>=1680的设备屏幕*/
+        @media (min-width: 1920px) {
+          body{font-size: 30px;}
+        } /*>=1920的设备屏幕*/
+        #ECHAT_icon{
+          top: 70%;
+        }</style><script src="js/safari-nomodule-fix.js" type="module"></script><script defer="defer" type="module" src="js/runtime.5bb870fa.js"></script><script defer="defer" type="module" src="js/app-017397ff.b8dc2460.js"></script><script defer="defer" type="module" src="js/app-4c120c8f.ed5f19df.js"></script><link href="css/app-017397ff.618004a2.css" rel="stylesheet"><link href="css/app-b6ebefd2.43d9477e.css" rel="stylesheet"><script defer="defer" src="js/runtime-legacy.b3759617.js" nomodule></script><script defer="defer" src="js/app-c0d76f48-legacy.5dc216a7.js" nomodule></script><script defer="defer" src="js/app-b6ebefd2-legacy.69185beb.js" nomodule></script><script defer="defer" src="js/app-4c120c8f-legacy.57d11843.js" nomodule></script></head><body class="onrems"><noscript><strong>We're sorry but horion.oversea.PC doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K5FGVPL" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><script src="js/bottom.js"></script><script async src="https://www.googletagmanager.com/gtag/js?id=G-93RKXM37ZD"></script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-240287636-1"></script><script>window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-93RKXM37ZD');
+        gtag('config', 'UA-240287636-1');</script><script>(function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+          'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-K5FGVPL');</script></body></html>
